@@ -1,0 +1,53 @@
+.clients .container {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .clients .title {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $primary-text-color;
+  }
+  
+  .clients .title, h2 {
+  margin-top: 0;
+  }
+  
+  .clients-list {
+    display: flex;
+    margin-top: 50px;
+  }
+  
+  .clients .clients-item:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  .clients-link {
+    display: flex;
+    width: 170px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    fill: #afb1b8;
+  
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+  
+    transition-property: border, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .clients .clients-link:hover,
+  .clients .clients-link:focus {
+    border: 1px solid $accent-color;
+    fill: $accent-color;
+  }
+  
+  .clients-icon {
+    height: 50px;
+  }

@@ -1,0 +1,98 @@
+.footer .container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  .footer {
+    background-color: $heder-footer-bg;
+  }
+  
+  .footer .logo {
+    margin-bottom: 20px;
+    color: $accent-color;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+  }
+  
+  .footer div {
+  display: inline-block;
+  }
+  
+  
+  .footer .address {
+    margin-top: 20px;
+    font-style: normal;
+  }
+  
+  .link-map {
+  margin-bottom: 20px;
+  }
+  
+  .footer .map {
+    margin-bottom: 20px;
+    color: $primary-bg;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.8;
+    text-decoration: none;
+  }
+  
+  .footer-link {
+    display: block;
+  margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+  
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .footer-join {
+    margin-left: 70px;
+  }
+  
+  .footer-title {
+    display: block;
+    margin-bottom: 20px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  
+  .container.footer-padding {
+    display: flex;
+  }
+  
+  .footer-social {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .footer-social .footer-social-link {
+    padding: 12px;
+  
+    width: 44px;
+    height: 44px;
+    display: block;
+    border-radius: 50%;
+  
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: #ffffff;
+  }
+  
+  .footer-social-list:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .footer-social-link:hover,
+  .footer-social-link:focus {
+    border-radius: 50%;
+    background-color: $accent-color;
+    fill: #ffffff;
+  }

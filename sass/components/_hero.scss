@@ -1,0 +1,67 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    text-align: center;
+  
+    background-color: var(--heder-footer-bg);
+    background-image: url(../images/hero/Img\ Overlay.png),
+      url(../images/hero/Img.jpg);
+  
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .hero .title {
+    display: block;
+    max-width: 700;
+    margin-left: auto;
+    margin-right: auto;
+  
+    color: $primary-bg;
+  
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-align: center;
+    /* все буквы заглавные */
+    text-transform: uppercase;
+    width: 696px;
+    height: 120px;
+  }
+  
+  .hero .button-primary {
+    display: block;
+    margin: auto;
+    height: 50px;
+    line-height: 50;
+    position: relative;
+    height: 50px;
+    padding: 10px 32px;
+    background-color: $accent-color;
+    color: $primary-bg;
+    font-family: Roboto;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    margin-top: 40px;
+  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      background: #188ce8;
+    }
+  }
